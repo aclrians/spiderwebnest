@@ -2,9 +2,7 @@ backend:
   name: github
   repo: aclrians/spiderwebnest
   branch: main
-  app_id: Ov23liFm0mWWaBDex9Ry
-  base_url: https://spiderwebnest.com
-  auth_endpoint: admin
+  site_domain: spiderwebnest.vercel.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
