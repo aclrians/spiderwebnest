@@ -2,7 +2,6 @@ backend:
   name: github
   repo: aclrians/spiderwebnest
   branch: main
-  site_domain: spiderwebnest.vercel.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
