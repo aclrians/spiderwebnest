@@ -2,10 +2,6 @@ backend:
   name: github
   repo: aclrians/spiderwebnest
   branch: main
-  auth_scope: repo
-  base_url: https://api.netlify.com
-  auth_endpoint: oauth2/authorize
-  app_id: Ov23lin5HIft93epfoNQ
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
