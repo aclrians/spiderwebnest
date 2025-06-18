@@ -8,16 +8,6 @@ body{
     ;
 }
 
-h2{
-
-    font-family:"IBM Plex Serif", serif; ;
-    font-size: px;
-    font-weight: normal;
-
-
-
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -69,6 +59,11 @@ header{
 .layout h1,p{
     font-size: 30px;
     font-family:"IBM Plex Serif", serif; ;
+}
+.layout h2 {
+    font-size: 25px;
+    font-family:"IBM Plex Serif", serif; ;
+    
 }
 
 main{
