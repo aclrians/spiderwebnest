@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Content Manager</title>
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js" defer></script>
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
     <script>
       window.CMS_MANUAL_INIT = true;
     </script>
@@ -11,8 +11,10 @@
   <body>
     <div id="nc-root"></div>
     <script>
-      CMS.init({
-        config: '/admin/config.yaml'
+      window.addEventListener("DOMContentLoaded", function () {
+        CMS.init({
+          config: '/admin/config.yaml'
+        });
       });
     </script>
   </body>
